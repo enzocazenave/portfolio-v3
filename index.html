@@ -10,28 +10,225 @@
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="./normalize.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--<script defer src="https://app.embed.im/snow.js"></script>-->
 </head>
 <body>    
-    <div class="home">
-        <div class="home__text">
-            <h1 class="home__text-h1">ENZO CAZENAVE</h1>        
-            <p class="home__text-p">SOY UN DESARROLLADOR APASIONADO</p>
+    <header class="header">
+        <div class="header_logos">
+            <img class="header_logos-logo" alt="Logo de Enzo Cazenave" src="https://cdn.discordapp.com/attachments/835115175904280636/1031644157489463338/bbbbb.png" />
+            <img class="header_logos-flag" alt="Bandera del idioma" src="https://negricases.com/es/wp-content/uploads/2019/12/idioma-ingles.png" />
         </div>
 
-        <div class="home__contact">
-            <a class="home__contact-circle">
+        <nav class="header_nav">
+            <ul class="header_nav-ul">
+                <li class="header_nav-ul__li"><a id="home-item" href="#home" class="header_nav-ul__li--a header_nav-ul__li--a___selected">Inicio</a></li>
+                <li class="header_nav-ul__li"><a id="about-item" href="#about" class="header_nav-ul__li--a">Sobre Mi</a></li>
+                <li class="header_nav-ul__li"><a id="experience-item" href="#experience" class="header_nav-ul__li--a">Proyectos</a></li>
+                <li class="header_nav-ul__li"><a id="skills-item" href="#skills" class="header_nav-ul__li--a">Habilidades</a></li>
+                <li class="header_nav-ul__li"><a id="degrees-item" href="#" class="header_nav-ul__li--a">Estudios</a></li>
+            </ul>
+        </nav>
+
+        <button class="header_button">
+            Contáctame
+        </button>
+    </header>
+
+    <div class="home section" id="home">
+        <div class="home_text">
+            <h1 class="home_text-h1">ENZO CAZENAVE</h1>        
+            <p class="home_text-p">SOY UN DESARROLLADOR APASIONADO</p>
+        </div>
+
+        <div class="home_contact">
+            <a target="_blank" class="home_contact-circle">
                 <i class="fab fa-github"></i>
             </a>
-            <a class="home__contact-circle">
+            <a target="_blank" class="home_contact-circle">
                 <i class="fab fa-linkedin"></i>
             </a>
-            <a class="home__contact-circle">
+            <a target="_blank" class="home_contact-circle">
                 <i class="fab fa-instagram"></i>
             </a>
         </div>
+
+        <div class="home_info">
+            <div class="home_info-bar"></div>
+            <p class="home_info-text">Scroll hacia abajo</p>
+        </div>
     </div>
     
+    <div class="about section" id="about">
+        <img class="about_left" src="https://cdn.discordapp.com/attachments/1008885821027405958/1054920991802937354/Captura_de_pantalla_2022-12-20_a_las_21.38.57.png" alt="Enzo Cazenave" />
+
+        <div class="about_right">
+            <div class="about_right-title">
+                <p class="about_right-title__subtext">Descubre</p>
+                <div>
+                    <span class="about_right-title__bar">―</span>
+                    <h2 class="about_right-title__text">Sobre Mi</h2>
+                </div>
+            </div>
+
+            <p class="about_right-description">
+                Mi nombre es Enzo Cazenave.
+                <br/>
+                Soy desarrollador <span class="about_right-description__orange">Full Stack</span> nacido en Quilmes, <span class="about_right-description__orange">Argentina</span>, y me describo como pasional en la programación porqué realmente me gusta y me divierte lo que hago. Por eso, es que estoy buscando activamente mi primer experiencia laboral profesional.
+                Me encanta aprender y estar capacitándome constantemente.
+                <br/><br/>
+                Comencé en la programación a mediados de <span class="about_right-description__orange">2019</span>, gracias a mi ambición de desarrollar un servidor de un juego denominado FiveM. La única cosa positiva que puedo destacar de la pandemia (COVID-19), es que la misma fomentó mucho mi aprendizaje en el área.
+            </p>
+
+            <div class="about_right-box">
+                <div class="about_right-box__info">
+                    <h3 class="about_right-box__info--title">Nombre</h3>
+                    <p class="about_right-box__info--text">Enzo Cazenave</p>
+                </div>
+                <div class="about_right-box__info">
+                    <h3 class="about_right-box__info--title">Ubicación</h3>
+                    <p class="about_right-box__info--text">Quilmes, Argentina.</p>
+                </div>
+                <div class="about_right-box__info">
+                    <h3 class="about_right-box__info--title">Teléfono</h3>
+                    <p class="about_right-box__info--text">+54 9 11 4528 0608</p>
+                </div>
+                <div class="about_right-box__info">
+                    <h3 class="about_right-box__info--title">Correo electrónico</h3>
+                    <p class="about_right-box__info--text">encaze@hotmail.com</p>
+                </div>
+            </div>
+
+             <a target="_blank" href="#" class="about_right-download">
+                <i class="fas fa-download"></i>
+                Descargar CV
+            </a>
+        </div>
+    </div>
+
+    <div class="experience section" id="experience">
+        <div class="experience_title">
+            <p class="experience_title-subtext">Qué hago?</p>
+            <div>
+                <span class="experience_title-bar">―</span>
+                <h2 class="experience_title-text">Mis proyectos</h2>
+            </div>
+        </div>
+
+        <div class="experience_cards">
+            <div class="experience_cards-card">
+                <div class="experience_cards-card__container">
+                    <i class="fas fa-list-ul"></i>
+                    
+                    <div class="experience_cards-card__text">
+                        <h3 class="experience_cards-card__text--title">Lista de todos</h3>
+                        <p class="experience_cards-card__text--description">
+                            Aplicación para poder realizar una lista de tareas, con la posibilidad de 
+                            marcarlas como realizadas o eliminarlas. También se puede crear categorías
+                        </p>
+                    </div>
+                </div>
+
+                <div class="experience_cards-card__buttons">
+                    <a target="_blank" href="#" class="experience_cards-card__buttons--button">
+                        Repositorio
+                    </a>
+                    <a target="_blank" href="#" class="experience_cards-card__buttons--button">
+                        Deploy
+                    </a>
+                </div>
+            </div>
+
+            <div class="experience_cards-card">
+                <div class="experience_cards-card__container">
+                    <i class="fab fa-twitter"></i>
+                    <div class="experience_cards-card__text">
+                        <h3 class="experience_cards-card__text--title">Clon de twitter</h3>
+                        <p class="experience_cards-card__text--description">
+                            Aplicación web funcional de twitter, con la posibilidad de crear cuenta, 
+                            postear tweets, editar su perfil. Actualmente se encuentra en desarrollo.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="experience_cards-card__buttons">
+                    <a target="_blank" href="#" class="experience_cards-card__buttons--button">
+                        Repositorio
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/posts/enzo-cazenave_frontend-a-frontend-activity-6984531011673993216-2nQe?utm_source=share&utm_medium=member_desktop" class="experience_cards-card__buttons--button">
+                        Video
+                    </a>
+                </div>
+            </div>
+
+            <div class="experience_cards-card">
+                <div class="experience_cards-card__container">
+                    <i class="fas fa-laptop-code"></i>
+                    <div class="experience_cards-card__text">
+                        <h3 class="experience_cards-card__text--title">Boren Dev</h3>
+                        <p class="experience_cards-card__text--description">
+                            Landing page para empresa de desarrollo de software, diseñada en Adobe XD,
+                            y luego maquetada en HTML. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="experience_cards-card__buttons">
+                    <a target="_blank" href="#" class="experience_cards-card__buttons--button">
+                        Repositorio
+                    </a>
+                    <a target="_blank" href="#" class="experience_cards-card__buttons--button">
+                        Deploy
+                    </a>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="skills section" id="skills">
+        <div class="skills_title">
+            <p class="skills_title-subtext">Tecnologías</p>
+            <h2 class="skills_title-text">Mis habilidades</h2>
+            <span class="skills_title-bar">―</span>
+        </div>
+
+        <div class="skills_container">
+            <div class="skills_container-skill">
+                <p class="skills_container-skill__name">HTML</p>
+            </div>
+            <div class="skills_container-skill">
+                <p class="skills_container-skill__name">CSS</p>
+            </div>
+            <div class="skills_container-skill">
+                <p class="skills_container-skill__name">JAVASCRIPT</p>
+            </div>
+            <div class="skills_container-skill">
+                <p class="skills_container-skill__name">REACT</p>
+            </div>
+            <div class="skills_container-skill">
+                <p class="skills_container-skill__name">REACT NATIVE</p>
+            </div>
+            <div class="skills_container-skill">
+                <p class="skills_container-skill__name">NODE</p>
+            </div>
+            <div class="skills_container-skill">
+                <p class="skills_container-skill__name">EXPRESS</p>
+            </div>
+            <div class="skills_container-skill">
+                <p class="skills_container-skill__name">SOCKET IO</p>
+            </div>
+            <div class="skills_container-skill">
+                <p class="skills_container-skill__name">MONGO DB</p>
+            </div>
+            <div class="skills_container-skill">
+                <p class="skills_container-skill__name">FIREBASE</p>
+            </div>
+            <div class="skills_container-skill">
+                <p class="skills_container-skill__name">MYSQL</p>
+            </div>
+            <div class="skills_container-skill">
+                <p class="skills_container-skill__name">ADOBE XD</p>
+            </div>
+        </div>
+    </div>
 
     <script src="./script.js"></script>
 </body>
