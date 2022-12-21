@@ -33,3 +33,17 @@ window.addEventListener('scroll', () => {
         navItem.classList.toggle('header_nav-ul__li--a___selected', condition);
     });
 });
+
+ScrollReveal({ reset: true }).reveal('.about_left', { delay: 250 });
+ScrollReveal({ reset: true }).reveal('.about_right', { delay: 400 });
+ScrollReveal({ reset: true }).reveal('.experience_title', { delay: 250 });
+ScrollReveal({ reset: true }).reveal('.experience_cards', { delay: 250 });
+ScrollReveal({ reset: true }).reveal('.skills_title', { delay: 250 });
+ScrollReveal({ reset: true }).reveal('.skills_container', { delay: 250 });
+ScrollReveal({ reset: true }).reveal('.degrees_title', { delay: 250 });
+ScrollReveal({ reset: true }).reveal('.degrees_container', { delay: 400 });
+ScrollReveal({ reset: true }).reveal('.contact_container', { delay: 250 });
+ScrollReveal({ reset: true }).reveal('.contact_title', { delay: 250 });
+ScrollReveal({ reset: true }).reveal('#circle-1', { delay: 250 });
+ScrollReveal({ reset: true }).reveal('#circle-2', { delay: 350 });
+ScrollReveal({ reset: true }).reveal('#circle-3', { delay: 450 });

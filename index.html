@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="./normalize.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>    
     <header class="header">
         <div class="header_logos">
             <img class="header_logos-logo" alt="Logo de Enzo Cazenave" src="https://cdn.discordapp.com/attachments/835115175904280636/1031644157489463338/bbbbb.png" />
-            <img class="header_logos-flag" alt="Bandera del idioma" src="https://negricases.com/es/wp-content/uploads/2019/12/idioma-ingles.png" />
         </div>
 
         <nav class="header_nav">
@@ -24,13 +24,13 @@
                 <li class="header_nav-ul__li"><a id="about-item" href="#about" class="header_nav-ul__li--a">Sobre Mi</a></li>
                 <li class="header_nav-ul__li"><a id="experience-item" href="#experience" class="header_nav-ul__li--a">Proyectos</a></li>
                 <li class="header_nav-ul__li"><a id="skills-item" href="#skills" class="header_nav-ul__li--a">Habilidades</a></li>
-                <li class="header_nav-ul__li"><a id="degrees-item" href="#" class="header_nav-ul__li--a">Estudios</a></li>
+                <li class="header_nav-ul__li"><a id="degrees-item" href="#degrees" class="header_nav-ul__li--a">Estudios</a></li>
             </ul>
         </nav>
 
-        <button class="header_button">
+        <a href="#contact" class="header_button">
             Contáctame
-        </button>
+        </a>
     </header>
 
     <div class="home section" id="home">
@@ -40,13 +40,13 @@
         </div>
 
         <div class="home_contact">
-            <a target="_blank" class="home_contact-circle">
+            <a href="https://github.com/enzocazenave/" target="_blank" class="home_contact-circle">
                 <i class="fab fa-github"></i>
             </a>
-            <a target="_blank" class="home_contact-circle">
+            <a href="https://www.linkedin.com/in/enzo-cazenave/" target="_blank" class="home_contact-circle">
                 <i class="fab fa-linkedin"></i>
             </a>
-            <a target="_blank" class="home_contact-circle">
+            <a href="https://www.instagram.com/chikicazenave_/" target="_blank" class="home_contact-circle">
                 <i class="fab fa-instagram"></i>
             </a>
         </div>
@@ -97,7 +97,7 @@
                 </div>
             </div>
 
-             <a target="_blank" href="#" class="about_right-download">
+             <a target="_blank" href="https://cdn.discordapp.com/attachments/1008885821027405958/1031083809841623050/enzo-cazenave.pdf" class="about_right-download">
                 <i class="fas fa-download"></i>
                 Descargar CV
             </a>
@@ -109,7 +109,7 @@
             <p class="experience_title-subtext">Qué hago?</p>
             <div>
                 <span class="experience_title-bar">―</span>
-                <h2 class="experience_title-text">Mis proyectos</h2>
+                <h2 class="experience_title-text">Algunos de mis proyectos</h2>
             </div>
         </div>
 
@@ -128,10 +128,10 @@
                 </div>
 
                 <div class="experience_cards-card__buttons">
-                    <a target="_blank" href="#" class="experience_cards-card__buttons--button">
+                    <a target="_blank" href="https://github.com/enzocazenave/todo-panel" class="experience_cards-card__buttons--button">
                         Repositorio
                     </a>
-                    <a target="_blank" href="#" class="experience_cards-card__buttons--button">
+                    <a target="_blank" href="https://todoapp-enzo.netlify.app/" class="experience_cards-card__buttons--button">
                         Deploy
                     </a>
                 </div>
@@ -150,7 +150,7 @@
                 </div>
 
                 <div class="experience_cards-card__buttons">
-                    <a target="_blank" href="#" class="experience_cards-card__buttons--button">
+                    <a target="_blank" href="https://github.com/enzocazenave/twitter" class="experience_cards-card__buttons--button">
                         Repositorio
                     </a>
                     <a target="_blank" href="https://www.linkedin.com/posts/enzo-cazenave_frontend-a-frontend-activity-6984531011673993216-2nQe?utm_source=share&utm_medium=member_desktop" class="experience_cards-card__buttons--button">
@@ -172,10 +172,10 @@
                 </div>
 
                 <div class="experience_cards-card__buttons">
-                    <a target="_blank" href="#" class="experience_cards-card__buttons--button">
+                    <a target="_blank" href="https://github.com/enzocazenave/boren-development-v2.git" class="experience_cards-card__buttons--button">
                         Repositorio
                     </a>
-                    <a target="_blank" href="#" class="experience_cards-card__buttons--button">
+                    <a target="_blank" href="https://borendev.com" class="experience_cards-card__buttons--button">
                         Deploy
                     </a>
                 </div>
@@ -229,6 +229,108 @@
             </div>
         </div>
     </div>
+
+    <div class="degrees section" id="degrees">
+        <div class="degrees_title">
+            <p class="degrees_title-subtext">Estudios</p>
+            <h2 class="degrees_title-text">Mis cursos</h2>
+            <span class="degrees_title-bar">―</span>
+        </div>
+
+        <div class="degrees_container">
+            <div class="degrees_container-degree">
+                <img class="degrees_container-degree__image" src="https://www.uade.edu.ar/media/1jwdrtbj/uade_una_gran_universidad.png" alt="Imagen de instituto" />
+                <div class="degrees_container-degree__text">
+                    <h3 class="degrees_container-degree__text--title">Ingeniería en informática</h3>
+                    <p class="degrees_container-degree__text--description">
+                        Cursando primer cuatrimestre del segundo año de Ingeniería en informática en la 
+                        <span class="degrees_container-degree__text--description___color">UADE</span> (Universidad Argentina de la Empresa)
+                    </p>
+                </div>
+            </div>
+            <div class="degrees_container-degree">
+                <img class="degrees_container-degree__image" src="https://s.udemycdn.com/meta/default-meta-image-v2.png" alt="Imagen de instituto" />
+                <div class="degrees_container-degree__text">
+                    <h3 class="degrees_container-degree__text--title">React: De cero a experto</h3>
+                    <p class="degrees_container-degree__text--description">
+                        Finalicé un curso de React en la plataforma online de aprendizaje <span class="degrees_container-degree__text--description___color">Udemy</span>.
+                    </p>
+                </div>
+            </div>
+            <div class="degrees_container-degree">
+                <img class="degrees_container-degree__image" src="https://s.udemycdn.com/meta/default-meta-image-v2.png" alt="Imagen de instituto" />
+                <div class="degrees_container-degree__text">
+                    <h3 class="degrees_container-degree__text--title">React: Aplicaciones en tiempo real con Socket-io</h3>
+                    <p class="degrees_container-degree__text--description">
+                        Finalicé un curso de Socket-IO en la plataforma online de aprendizaje <span class="degrees_container-degree__text--description___color">Udemy</span>.
+                    </p>
+                </div>
+            </div>
+            <div class="degrees_container-degree">
+                <img class="degrees_container-degree__image" src="https://s.udemycdn.com/meta/default-meta-image-v2.png" alt="Imagen de instituto" />
+                <div class="degrees_container-degree__text">
+                    <h3 class="degrees_container-degree__text--title">React Native: Aplicaciones nativas para IOS y Android</h3>
+                    <p class="degrees_container-degree__text--description">
+                        Estoy realizando un curso de React Native en la plataforma online de aprendizaje <span class="degrees_container-degree__text--description___color">Udemy</span>.
+                    </p>
+                </div>
+            </div>
+            <div class="degrees_container-degree">
+                <img class="degrees_container-degree__image" src="https://s3.amazonaws.com/thinkific-import/220744/xxhShCm7RYCxPq2LAVBJ_favico_png" alt="Imagen de instituto" />
+                <div class="degrees_container-degree__text">
+                    <h3 class="degrees_container-degree__text--title">PHP y la Web desde cero, Desarrollo de aplicaciones Web.</h3>
+                    <p class="degrees_container-degree__text--description">
+                        Finalicé un curso de PHP en la plataforma online de aprendizaje <span class="degrees_container-degree__text--description___color">Mastermind</span>.
+                    </p>
+                </div>
+            </div>
+            <div class="degrees_container-degree">
+                <img class="degrees_container-degree__image" src="https://s3.amazonaws.com/thinkific-import/220744/xxhShCm7RYCxPq2LAVBJ_favico_png" alt="Imagen de instituto" />
+                <div class="degrees_container-degree__text">
+                    <h3 class="degrees_container-degree__text--title">Aprende a programar con python.</h3>
+                    <p class="degrees_container-degree__text--description">
+                        Finalicé un curso de Python en la plataforma online de aprendizaje <span class="degrees_container-degree__text--description___color">Mastermind</span>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="contact_title">
+            <p class="contact_title-subtext">Formas</p>
+            <h2 class="contact_title-text">Contáctame</h2>
+            <span class="contact_title-bar">―</span>
+        </div>
+
+        <div class="contact_container">
+            <a href="https://api.whatsapp.com/send?phone=5491145280608" target="_blank" class="contact_container-type">
+                <i class="fab fa-whatsapp"></i>
+                <span class="contact_container-type__text">+54 9 11 4528 0608</span>
+            </a>
+            <a href="mailto:encaze@hotmail.com" target="_blank" class="contact_container-type">
+                <i class="fas fa-envelope"></i>
+                <span class="contact_container-type__text">encaze@hotmail.com</span>
+            </a>
+        </div>
+
+        <div class="home_contact">
+            <a id="circle-1" href="https://github.com/enzocazenave/" target="_blank" class="home_contact-circle">
+                <i class="fab fa-github"></i>
+            </a>
+            <a id="circle-2" href="https://www.linkedin.com/in/enzo-cazenave/" target="_blank" class="home_contact-circle">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a id="circle-3" href="https://www.instagram.com/chikicazenave_/" target="_blank" class="home_contact-circle">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p class="footer_text">Thank you for watching 😊</p>
+        <p class="footer_copy">Created by <a href="https://github.com/enzocazenave/" target="_blank">enzocazenave</a> | 2022 Copyright © All Rights Reserved</p>
+    </footer>
 
     <script src="./script.js"></script>
 </body>
