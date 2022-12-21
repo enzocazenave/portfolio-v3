@@ -10,6 +10,36 @@
     scroll-behavior: smooth;
 }
 
+.loading {
+    background-color: #171717;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+}
+
+.loading_loader {
+    width: 3.75rem;
+    height: 3.75rem;
+    border: 2px solid var(--orange);
+    border-left-color: var(--white-text);
+    border-radius: 50%;
+    animation: 2s spin ease-in-out infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .header {
     display: flex;
     justify-content: space-around;

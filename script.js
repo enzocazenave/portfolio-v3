@@ -10,6 +10,15 @@ const experience = document.querySelector('#experience');
 const skills = document.querySelector('#skills');
 const sections = document.querySelectorAll('.section');
 
+// LOADER
+const loading = document.querySelector('.loading');
+
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+        loading.style.display = 'none';
+    }, 1000);
+})
+
 window.addEventListener('scroll', () => {    
     header.classList.toggle('header_active', scrollY > (innerHeight / 4));
     logo.classList.toggle('header_logos-logo__active', scrollY > (innerHeight / 4));
@@ -34,6 +43,11 @@ window.addEventListener('scroll', () => {
     });
 });
 
+
+ScrollReveal().reveal('.home_text', { delay: 1200 });
+ScrollReveal().reveal('.home_contact', { delay: 1200 });
+ScrollReveal().reveal('.header', { delay: 1200 });
+ScrollReveal({ reset: true }).reveal('.experience_title', { delay: 250 });
 ScrollReveal({ reset: true }).reveal('.about_left', { delay: 250 });
 ScrollReveal({ reset: true }).reveal('.about_right', { delay: 400 });
 ScrollReveal({ reset: true }).reveal('.experience_title', { delay: 250 });
