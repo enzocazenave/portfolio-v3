@@ -47,17 +47,22 @@ window.addEventListener('scroll', () => {
 ScrollReveal().reveal('.home_text', { delay: 1200 });
 ScrollReveal().reveal('.home_contact', { delay: 1200 });
 ScrollReveal().reveal('.header', { delay: 1200 });
-ScrollReveal({ reset: true }).reveal('.experience_title', { delay: 250 });
+
 ScrollReveal({ reset: true }).reveal('.about_left', { delay: 250 });
-ScrollReveal({ reset: true }).reveal('.about_right', { delay: 400 });
-ScrollReveal({ reset: true }).reveal('.experience_title', { delay: 250 });
-ScrollReveal({ reset: true }).reveal('.experience_cards', { delay: 250 });
+ScrollReveal({ reset: true }).reveal('.about_right', { delay: 500 });
+
+ScrollReveal({ reset: true }).reveal('.experience_title', { delay: 300 });
+ScrollReveal({ reset: true }).reveal('.experience_cards', { delay: 600 });
+
 ScrollReveal({ reset: true }).reveal('.skills_title', { delay: 250 });
 ScrollReveal({ reset: true }).reveal('.skills_container', { delay: 250 });
+
 ScrollReveal({ reset: true }).reveal('.degrees_title', { delay: 250 });
 ScrollReveal({ reset: true }).reveal('.degrees_container', { delay: 400 });
+
 ScrollReveal({ reset: true }).reveal('.contact_container', { delay: 250 });
 ScrollReveal({ reset: true }).reveal('.contact_title', { delay: 250 });
-ScrollReveal({ reset: true }).reveal('#circle-1', { delay: 250 });
-ScrollReveal({ reset: true }).reveal('#circle-2', { delay: 350 });
-ScrollReveal({ reset: true }).reveal('#circle-3', { delay: 450 });
+
+ScrollReveal({ reset: true }).reveal('#circle-1', { delay: 100 });
+ScrollReveal({ reset: true }).reveal('#circle-2', { delay: 200 });
+ScrollReveal({ reset: true }).reveal('#circle-3', { delay: 300 });
