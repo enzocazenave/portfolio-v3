@@ -63,6 +63,6 @@ ScrollReveal({ reset: true }).reveal('.degrees_container', { delay: 400 });
 ScrollReveal({ reset: true }).reveal('.contact_container', { delay: 250 });
 ScrollReveal({ reset: true }).reveal('.contact_title', { delay: 250 });
 
-ScrollReveal({ reset: true }).reveal('#circle-1', { delay: 100 });
-ScrollReveal({ reset: true }).reveal('#circle-2', { delay: 200 });
-ScrollReveal({ reset: true }).reveal('#circle-3', { delay: 300 });
+ScrollReveal({ reset: true }).reveal('#circle-1', { delay: 150 });
+ScrollReveal({ reset: true }).reveal('#circle-2', { delay: 300 });
+ScrollReveal({ reset: true }).reveal('#circle-3', { delay: 450 });

@@ -646,6 +646,11 @@
     font-weight: 600;
 }
 
+.contact_contact {
+    display: flex;
+    gap: 2.5rem;
+}
+
 .contact_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
